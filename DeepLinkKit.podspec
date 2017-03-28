@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
-  s.module_map       = 'DeepLinkKit/module.modulemap'
+  s.module_map       = 'DeepLinkKit/DeepLinkKit.modulemap'
 
   s.source_files     = 'DeepLinkKit/**/*.{h,m}'
 end
